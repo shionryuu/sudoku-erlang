@@ -1,0 +1,6 @@
+{application, sudoku, [
+    {description, "Erlang Sudoku Solver"},
+    {vsn, "1.0.0"},
+    {applications, [kernel, stdlib]},
+    {registered, [sudoku]}
+]}.
